@@ -32,6 +32,7 @@ a {
  
 }
 /*-----------------header-----------*/
+
 .logo {
   display:block;
   margin-right:93px;
@@ -107,7 +108,7 @@ nav {
 
 .container-header{
   display:flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 header {
@@ -120,7 +121,8 @@ header {
 /*---------------hero------------*/
 
 .hello {
-  
+  background-image: url('../images/hero.jpg') ;
+  background-image: linear-gradient(to right, #2F303A66, )
   padding-top:200px;
   padding-bottom: 200px;
 }
@@ -188,6 +190,17 @@ footer {
   
 }
 
+.image{
+  width:270px;
+  height:120px;
+  background-color: #F5F4FA;
+}
+ .antenna{
+  display:block;
+  width:70px;
+  height:70px;
+  
+ }
 .services-title {
   font-weight: 700;
   line-height: 1.14;
@@ -295,7 +308,10 @@ footer {
 }
 
 .position {
-  margin:0;
+  margin-top:10px;
+  margin-left: 0;
+  margin-bottom: 0;
+  margin-right: 0;
   font-size: 16px;
   line-height: 1.19;
 
