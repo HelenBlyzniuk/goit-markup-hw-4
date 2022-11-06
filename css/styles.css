@@ -65,6 +65,7 @@ a {
   color: var(--additional-color);
 }
 
+
 .contacts {
   display:flex;
 
@@ -105,6 +106,7 @@ nav {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 
 .container-header{
   display:flex;
@@ -194,11 +196,13 @@ footer {
   width:270px;
   height:120px;
   background-color: #F5F4FA;
+  padding-top: 25px;
 }
- .antenna{
+ .icon{
   display:block;
   width:70px;
   height:70px;
+  margin: 0 auto;
   
  }
 .services-title {
@@ -208,6 +212,7 @@ footer {
   text-transform: uppercase;
   font-size: 14px;
   margin:0;
+  margin-top: 30px;
   
 
 }
@@ -334,7 +339,38 @@ footer {
 .person:not(:last-of-type){
   margin-right:30px;
 }
+
+.icon-list{
+  list-style: none;
+  display:flex;
+  margin-top:16px;
+}
+
+.icon-item{
+  width:44px;
+  height:44px;
+  
+}
  
+.icon-item:not(:last-of-type){
+  margin-right: 10px;
+}
+
+.soc-net{
+  display:block;
+  margin:12px auto;
+  fill:var(--main-text-color)
+}
+
+.soc-net:hover{
+  fill:var(--additional-color);
+}
+.icon-item:hover{
+  border-radius: 50%;
+  border-color: black 1px solid;
+
+  background-color: aqua;
+}
 /*---------------footer------------*/
 
 footer {
