@@ -83,7 +83,9 @@ a {
 
   color: var(--main-text-color);
 }
-
+.contacts-list{
+  justify-content: center;
+}
 .contacts-list:not(:last-child){
   margin-right: 50px;
 }
@@ -103,7 +105,7 @@ a {
 .contact:hover,
 .contact:focus{
   color: var(--active-element-color);
- 
+  
 }
 
 .contacts-icon:hover,
@@ -134,7 +136,7 @@ header {
 /*---------------hero------------*/
 
 .hello {
-  background-image: 
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
    url('../images/hero.jpg');
   background-color: #2F303A66;
   max-width:1600px;
@@ -350,6 +352,11 @@ footer {
   
 }
 
+.person{
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 
 .person:not(:last-of-type){
   margin-right:30px;
@@ -442,6 +449,12 @@ footer {
 
 /*---------------footer------------*/
 
+.container-address{
+  display:flex;
+  
+
+}
+
 footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -478,7 +491,40 @@ address {
 
 }
 
+.footer-icon {
+  border-radius: 50%;
+  border-color: black 1px solid;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+}
 
+.footer-icons{
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+.join-title{
+  
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  
+    color: #FFFFFF;
+    margin:0;
+    margin-bottom: 20px;
+}
+
+.join{
+  margin-left: 70px;
+  margin-top: 12px;
+}
+
+.footer-net{
+  fill:var(--additional-color);
+}
 
 /*---------------examples------------*/
 
