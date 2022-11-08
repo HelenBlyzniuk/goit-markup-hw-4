@@ -92,12 +92,13 @@ a {
 
 .contact{
   display: inline-block;
+  fill:var(--main-text-color);
    
 }
 
 .contacts-icon{
   margin-right: 10px;
-  fill:var(--main-text-color);
+  
 }
 
 .nav:hover,
@@ -105,14 +106,10 @@ a {
 .contact:hover,
 .contact:focus{
   color: var(--active-element-color);
-  
-}
-
-.contacts-icon:hover,
-.contacts-icon:focus{
-
   fill: var(--active-element-color);
 }
+
+
 nav {
   color: var(--title-color);
   font-weight: 500;
@@ -139,6 +136,7 @@ header {
   background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
    url('../images/hero.jpg');
   background-color: #2F303A66;
+  margin:0 auto;
   max-width:1600px;
   height:600px;
   background-position: center;
@@ -366,6 +364,8 @@ footer {
   list-style: none;
   display:flex;
   margin-top:16px;
+  margin-left:32px;
+  padding:0;
   
 }
 
@@ -385,10 +385,12 @@ footer {
   fill:var(--main-text-color);
 }
 
-.soc-net:hover{
+.soc-net:hover,
+.soc-net:focus{
  fill:var(--additional-color);
 }
-.icon-item:hover{
+.icon-item:hover,
+.icon-item:focus{
   border-radius: 50%;
   border-color: black 1px solid;
   background-color:#2196F3;
