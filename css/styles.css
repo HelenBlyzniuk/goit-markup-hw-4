@@ -356,6 +356,10 @@ footer {
   background-color: var(--additional-color);
 }
 
+.person:hover,
+.person:focus{
+
+}
 
 .person:not(:last-of-type){
   margin-right:30px;
@@ -421,8 +425,10 @@ footer {
 
 .clients-icons{
   display:flex;
+  justify-content: center;
   margin:0;
   margin-top: 50px;
+  padding:0;
 }
 
 .client-icon:not(:last-of-type){
@@ -437,16 +443,18 @@ footer {
 
 .client-icon:hover,
 .client-icon:focus{
-  border: 1px solid #2196F3;
+  border: 1px solid rgba(33, 150, 243, 1);
 }
 
 .icon-logo{
   fill:var(--main-text-color);
 }
 
-.icon-logo:hover{
-  fill:var(--active-element-color);
+.icon-logo:hover,
+.icon-logo:focus{
+  fill:rgba(33, 150, 243, 1);
 }
+
 .client-icon-logo{
   display:block;
   margin:0;
