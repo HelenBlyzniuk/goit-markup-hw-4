@@ -353,6 +353,7 @@ footer {
 .person{
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: var(--additional-color);
 }
 
 
@@ -369,11 +370,7 @@ footer {
   
 }
 
-.icon-item{
-  width:44px;
-  height:44px;
-  
-}
+
  
 .icon-item:not(:last-of-type){
   margin-right: 10px;
@@ -382,19 +379,27 @@ footer {
 .soc-net{
   display:block;
   margin:12px auto;
-  fill:var(--main-text-color);
+ 
 }
 
-.soc-net:hover,
-.soc-net:focus{
- fill:var(--additional-color);
+.icon-item-link{
+  display:inline-block;
+  width: 44px;
+  height: 44px;
+  color:var(--main-text-color);
+  fill: #AFB1B8;
 }
-.icon-item:hover,
-.icon-item:focus{
-  border-radius: 50%;
+
+.icon-item-link:hover,
+.icon-item-link:focus{
+  
+ fill: var(--additional-color);
+ border-radius: 50%;
   border-color: black 1px solid;
-  background-color:#2196F3;
+  background-color: rgba(33, 150, 243, 1);
+
 }
+
 
 /*---------------clients------------*/
 
