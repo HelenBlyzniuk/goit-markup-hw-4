@@ -211,7 +211,10 @@ footer {
   width:270px;
   height:120px;
   background-color: #F5F4FA;
-  padding-top: 25px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
 }
  .icon{
   display:block;
@@ -419,7 +422,7 @@ footer {
     line-height: 1.166;
     text-align: center;
     letter-spacing: 0.03em;
-  
+    margin:0;
     color: #212121;
 }
 
@@ -435,10 +438,6 @@ footer {
   margin-right: 30px;
 }
 
-.client-icon{
-  border: 1px solid #AFB1B8;
-  border-radius: 4px;
-}
 
 
 .client-icon:hover,
@@ -448,6 +447,8 @@ footer {
 
 .icon-logo{
   fill:var(--main-text-color);
+ 
+  
 }
 
 .icon-logo:hover,
@@ -457,8 +458,15 @@ footer {
 
 .client-icon-logo{
   display:block;
+  display:flex;
   margin:0;
   padding:0;
+  width:170px;
+  height:92px;
+  border: 1px solid #AFB1B8;
+   border-radius: 4px;
+  justify-content: center;
+  align-items: center;;
 }
 
 
@@ -615,7 +623,8 @@ address {
 
 
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+ .btn-secondary:focus{
   color: var(--additional-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   background-color: var(--active-element-color);
