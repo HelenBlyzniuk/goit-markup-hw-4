@@ -504,25 +504,24 @@ address {
 
 }
 
-.footer-icon {
-  
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  border-color: black 1px solid;
-  background-color:rgba(255, 255, 255, 0.1);
-}
 
-.footer-link{
+
+/*.footer-link{
   fill: var(--additional-color);
+  display:inline-block;
+  width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border-color: black 1px solid;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 
 .footer-icon:hover,
 .footer-icon:focus{
 background-color: rgba(33, 150, 243, 1);
-border-radius: rgba(33, 150, 243, 1) 1px solid;
-}
+
+}*/
 
 .footer-icons{
   margin:0;
