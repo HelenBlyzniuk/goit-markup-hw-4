@@ -439,23 +439,6 @@ footer {
 }
 
 
-
-.client-icon:hover,
-.client-icon:focus{
-  border: 1px solid rgba(33, 150, 243, 1);
-}
-
-.icon-logo{
-  fill:var(--main-text-color);
- 
-  
-}
-
-.icon-logo:hover,
-.icon-logo:focus{
-  fill:rgba(33, 150, 243, 1);
-}
-
 .client-icon-logo{
   display:block;
   display:flex;
@@ -466,9 +449,15 @@ footer {
   border: 1px solid #AFB1B8;
    border-radius: 4px;
   justify-content: center;
-  align-items: center;;
+  align-items: center;
+  fill: var(--main-text-color);
 }
 
+.client-icon-logo:hover,
+.client-icon-logo:focus{
+fill: rgba(33, 150, 243, 1);
+  border-color: rgba(33, 150, 243, 1);
+}
 
 /*---------------footer------------*/
 
@@ -528,11 +517,11 @@ address {
   fill: var(--additional-color);
 }
 
+
 .footer-icon:hover,
 .footer-icon:focus{
-  background-color:rgba(33, 150, 243, 1);
-  border-radius: rgba(33, 150, 243, 1) 1px solid;
-  
+background-color: rgba(33, 150, 243, 1);
+border-radius: rgba(33, 150, 243, 1) 1px solid;
 }
 
 .footer-icons{
